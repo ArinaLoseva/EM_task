@@ -1,0 +1,6 @@
+@EM_task.API_HostAddress = http://localhost:5052
+
+GET {{EM_task.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
