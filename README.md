@@ -32,7 +32,6 @@ git clone https://github.com/ArinaLoseva/EM_task.git
 # Перейдите в папку проекта
 cd EM_task
 ```
-Сервер запустится на: http://localhost:5000
 
 ### 3. Запустите Backend (сервер)
 ```
@@ -44,6 +43,20 @@ dotnet restore
 
 # Запустите сервер
 dotnet run
+```
+Сервер запустится на: http://localhost:5000
+
+### 4. Запустите Frontend (отдельное окно терминала)
+```
+# Откройте новое окно терминала
+# Перейдите в папку frontend
+cd frontend
+
+# Установите зависимости
+npm install
+
+# Запустите приложение
+npm start
 ```
 Приложение откроется на: http://localhost:3000
 
