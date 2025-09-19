@@ -42,7 +42,7 @@ cd backend/EM_task.API
 dotnet restore
 
 # Запустите сервер
-dotnet run
+dotnet run --urls="http://localhost:5000"
 ```
 Сервер запустится на: http://localhost:5000
 
